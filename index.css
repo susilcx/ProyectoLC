@@ -252,3 +252,43 @@ nav > a:hover{
         transform: scale(1);
     }
 }
+/*footer*/
+.separador{
+    display: none;
+    
+}
+footer{
+    background: #dc94cc;
+    padding: 20px 0px 30px 0px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.contenedor_footer{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    justify-content: space-evenly;
+    margin:auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #fff;
+
+}
+
+.cont {
+    color: #fff;
+    border-bottom: 3px solid #e5a4cb;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.cont p{
+    color: #fff;
+}
+.final{
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 0 ;
+    color: #be85a8;
+}
