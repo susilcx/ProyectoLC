@@ -292,3 +292,41 @@ footer{
     padding: 20px 0 ;
     color: #be85a8;
 }
+@media (min-width: 769px) {
+
+    footer{
+        background: #dc94cc;
+        padding: 20px 0px 30px 0px;
+        margin: auto;
+        overflow: hidden;
+    }
+    .contenedor_footer{
+        display:flex;
+        flex-direction: row;
+        width: 90%;
+        justify-content: space-evenly;
+        margin:auto;
+        padding-bottom: 50px;
+        border-bottom: 1px solid #fff;
+    
+    }
+    
+    .cont{
+        text-align: center;
+    }
+    
+    .cont h4{
+        color: #fff;
+        border-bottom: 3px solid #e5a4cb;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+    
+    
+    .final{
+        text-align: center;
+        font-size: 24px;
+        margin: 20px 0 0 0;
+        color: #be85a8;
+    }
+}
