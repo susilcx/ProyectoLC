@@ -53,3 +53,50 @@ header{
     z-index: 1;
     position: relative;
 }
+@media (min-width: 769px) {
+    .navbar{
+        flex-direction: row;
+    }
+    .navbar a{
+        margin: 0 50px;
+    }
+    .titulo{
+        color:#fff;
+        font-size: 80px;
+        padding: 30px;
+    }
+    .texto_header{
+        display: flex;
+        height: 430px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align:center;
+    
+    }
+}
+nav a{
+    color: #fff;
+    font-weight: 1000;
+    text-decoration: none;
+    position:relative;
+    margin: 10px 0; 
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+
+.estilo_header{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.texto_header h1{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
