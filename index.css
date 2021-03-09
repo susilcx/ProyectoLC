@@ -115,3 +115,29 @@ nav > a:hover{
 .imagen_quienes{
     max-width: 100%;
 }
+@media (min-width: 769px) {
+
+    .quienes_somos{   
+        padding: 60px 0px 0px 0px;
+        font-size: 30px;
+        margin-bottom: 60px;    
+    }
+    .contenedor_quienes{
+        display:flex;
+        justify-content: space-evenly;
+    }
+    
+    .imagen_quienes{
+        width: 40%;
+        margin-left: 100px;
+        padding:0px 0px 0px 60px;
+    
+    }
+    .texto_nosotros{
+        width: 48%;
+        margin-right: 60px;
+        padding: 100px 40px 30px 60px;
+        font-weight: 100;
+        
+    }
+}
