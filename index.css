@@ -92,11 +92,26 @@ nav > a:hover{
     bottom: 0;
     width: 100%;
 }
-
-
-
 .texto_header h1{
     font-size: 30px;
     font-weight: 300;
     color: #fff;
+}
+/*main*/
+
+.quienes_somos{
+    color: #695a55;
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+.texto_nosotros{
+    text-align:justify;
+    color: #000;
+    padding: 10px;
+
+}
+.imagen_quienes{
+    max-width: 100%;
 }
