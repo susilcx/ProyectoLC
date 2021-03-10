@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title th:text="${titulo}"></title>
+</head>
+<body>
+    <h3 th:text="${titulo}"></h3>
+
+	<form th:action="@{/form}" method="post">
+
+		<div>
+			<label for="username">name</label>
+			<div>
+				<input type="text" name="name" id="name">
+			</div>
+		</div>
+		<div>
+			<label for="username">surname</label>
+			<div>
+				<input type="text" name="surname" id="surname">
+			</div>
+		</div>
+			<div>
+			<label for="documentNumber">"documentNumber"</label>
+			<div>
+				<input type="text" name="documentNumber" id="documentNumber">
+			</div>
+		</div>
+		<div>
+			<label for="password">Password</label>
+			<div>
+				<input type="password" name="password" id="password">
+			</div>
+		</div>
+	
+		
+		<div>
+			<div>
+				<input type="submit" value="Enviar">
+			</div>
+		</div>	
+	</form>
+</body>
+</html>
